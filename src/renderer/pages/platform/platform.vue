@@ -1,17 +1,5 @@
 <template>
   <div class="platform">
-    <!-- <img src="static/imgs/bd_logo1.png">
-    <el-row class="row">
-      <el-col :span="12"
-              :offset="6">
-        <el-input suffix-icon="el-icon-camera"
-                  v-model="value">
-          <el-button class="primary"
-                     slot="append"
-                     @click="search">百度一下</el-button>
-        </el-input>
-      </el-col>
-    </el-row> -->
     <el-button class="primary"
                @click="read">READ</el-button>
     <el-button class="primary"
